@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Choose Username"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/saveUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Save Username" />
+</LinearLayout>
