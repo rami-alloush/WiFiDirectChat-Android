@@ -1,4 +1,4 @@
-package test.example.wifichat;
+package net.rmasoft.wifichat;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -32,9 +32,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import test.example.wifichat.WiFiChatFragment.MessageTarget;
-import test.example.wifichat.WiFiDirectServicesList.DeviceClickListener;
-import test.example.wifichat.WiFiDirectServicesList.WiFiDevicesAdapter;
+import net.rmasoft.wifichat.WiFiChatFragment.MessageTarget;
+import net.rmasoft.wifichat.WiFiDirectServicesList.DeviceClickListener;
+import net.rmasoft.wifichat.WiFiDirectServicesList.WiFiDevicesAdapter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package test.example.wifichat;
+package net.rmasoft.wifichat;
 
 import android.content.Context;
 import android.net.wifi.p2p.WifiP2pDevice;

@@ -1,4 +1,4 @@
-package test.example.wifichat;
+package net.rmasoft.wifichat;
 import android.os.Handler;
 import android.util.Log;
 import java.io.IOException;

@@ -1,15 +1,11 @@
-# WorldCupNews - Android
-A simple android application that uses The Guardian API to pull the latest news related to World Cup.
+# Wi-Fi Direct Chat  - Android
+A simple Android application that utilizes the Wi-Fi Direct (also known as peer-to-peer or P2P) service for local network chat.
 
 ## How to use
-You just need to add the Guardian API key into the `gradle.properties` file as following 
-
-`guardianAPIs_ApiKey="YOUR-API-KEY-HERE"` 
-
-You can obtain the key from [here](https://open-platform.theguardian.com/access/)
+Just run the application and set a username, make sure Wi-Fi Direct is active and the app is installed on all devices that would use it for chat.
 
 ## Features
-* Pull to refresh
-* Simple settings panel to set the number of news articles and the order preference
+* Optional Username to set and chat
+* Auto start and end of chat between peers based on mutual actions
 
 <img src="images/Screenshot_1.png" width="300"> <img src="images/Screenshot_2.png" width="300">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="test.example.wifichat">
+    package="net.rmasoft.wifichat">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -23,11 +23,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".WiFiServiceDiscoveryActivity"
+            android:name="net.rmasoft.wifichat.WiFiServiceDiscoveryActivity"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="net.rmasoft.wifichat.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>

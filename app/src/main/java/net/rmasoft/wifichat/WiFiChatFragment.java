@@ -1,4 +1,4 @@
-package test.example.wifichat;
+package net.rmasoft.wifichat;
 import android.content.SharedPreferences;
 import android.support.v4.app.Fragment;
 import android.content.Context;
